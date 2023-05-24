@@ -1,0 +1,42 @@
+
+<div  class="header">
+    
+    <mat-toolbar>
+       
+        <mat-button-toggle   (click)="toggleHeader()" class="toggle">
+            <mat-icon >format_align_left</mat-icon>
+          </mat-button-toggle>
+        <div *ngIf="showHeader " class="header-title" [ngClass]="{'my-class': !showHeader}">
+        <div  class="logo m-10">
+            <img  src="../../../../../../assets/imag/home/header/logo.png">
+          </div>
+          <a [routerLink]="['/']" class=" m-10">
+            الرئيسيه 
+           </a>
+           <a [routerLink]="['/']" class=" m-10">
+            ومن نحن 
+           </a>
+           <a [routerLink]="['/']" class=" m-10">
+            منتاجتنا  
+           </a> 
+           <a [routerLink]="['/']" class=" m-10">
+            المعرض  
+           </a> 
+           <a [routerLink]="['/']" class=" m-10">
+            الأخبار 
+           </a> 
+           <a [routerLink]="['/']" class=" m-10">
+            الشركاء 
+             </a>  
+            <a [routerLink]="['/']" class=" m-10">
+            تواصل معنا
+            </a>
+        
+
+            <button class="show-price m-10">  طلب عرض  سعر </button>
+             <button class="translate m-10"> En</button>
+          </div> 
+             
+    </mat-toolbar>
+</div>
+
