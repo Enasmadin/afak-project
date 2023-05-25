@@ -1,0 +1,21 @@
+
+    .home{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        .app-header{
+            position: fixed;
+            top:0;
+            z-index: 2;
+            left:0;
+            right: 0;
+    
+        }
+        .app-about-us{
+          
+             z-index: 1;
+        }
+       
+    }
+
+

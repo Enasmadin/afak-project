@@ -1,0 +1,189 @@
+.about{
+   
+    .images{
+        position: relative;
+        .overlay{
+            position: absolute; 
+            width: 100%;
+            top:0;
+            background-color: #584e4e8c;
+            height: 100%;
+            left: 0;
+        }
+       
+        .image{
+            height: 700px;
+            width: 100%;
+            position: relative;
+       
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .img-center,.img-icon {
+              position: absolute;
+              top:50%;
+              left:50%;
+              img{
+                width: 100%;
+                height: 100%;
+                border-color: #ffffff;
+             
+                background-color: transparent;
+    
+              
+              }
+            }
+            .img-center {
+               
+                width: 88px;
+                height:88px;
+                margin-left: -42px;
+                margin-top: -42px;
+      
+                
+                img{
+               
+                   border-width: 2px;
+                  border-style: solid;
+                  border-radius: 50%;
+                  background-color: transparent;
+      
+                }
+              }
+    
+        }
+        .img-icon {
+               
+            width: 19px;
+            height:23px;
+            opacity: 1;
+            color: #FFFFFF;
+            margin-left: -9px;
+            margin-top: -11px;
+    
+            img{
+           
+                border-color: #000000;
+            }
+          }
+      
+    }
+    .choose-it 
+    {
+        position: relative;
+        .about-background{
+            // background: lightblue url("../../../assets/imag/home/about-us/2b2a28f9-59fd-44d5-96d2-21762fa87e8c.jpg") fixed no-repeat ;
+             min-height: 620px;
+             width: 100%;
+             position: relative;
+
+             @media (max-width:575.5px) {
+               
+                width: 100%;
+                height: 920px;
+                 
+            }
+            @media ( max-width:991.5px) {
+                width: 100%;
+                height: 720px;
+            }
+
+         img{
+             position: absolute;
+             top: -80px;
+             width: 100%;
+             height: 100%;
+         }
+
+       }
+        .about-choose{
+            width: 100%;
+           
+            padding-top: 30px;
+            position: absolute;
+            .about-important{
+             
+            font-family: "ae_AlMothnna";
+            font-size: 38px;
+            font-weight: bold;
+            line-height: 34px;
+            font-style: normal;
+            width: 350px;
+            padding: 2px 15px;
+            color: #ffffff;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+          
+            }
+            .about-content{
+                width: 800px;
+                font-family: Cairo  ;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                color: #ffffff;
+                display: flex;
+                justify-content: center;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 34px;
+
+                @media ( max-width:991.5px ) {
+                     
+                    width: 500px;
+                    margin-left: auto;
+                    margin-right: auto;
+                  
+                     
+                }
+                @media ( max-width:575.5px ) {
+                     
+                    width: 345px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-size: 13px;
+                  
+                     
+                }
+
+                
+
+            }
+            .about-apperance{
+              
+                font-family: "ae_AlMothnna";
+                font-size: 38px;
+                font-weight: bold;
+                line-height: 34px;
+                font-style: normal;
+                width: 350px;
+                padding: 2px 15px;
+                color: #ffffff;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 0;
+                line-height: 34px;
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            
+
+            }
+            .apperance{
+               p{
+                margin-top: -30px;
+}
+               }
+            }
+
+        }
+
+   }
+  
+

@@ -2,23 +2,43 @@ $color-primary:#fff;
 
 $color-secondery:#009C99;
 .header{
-    font-family: ae_AlMothnna;
-   
+    
+    height: auto;
+    background-color: $color-primary;
+    margin-top: 10px;
     z-index: 9999;
-    padding: 20px ;
+   
+  
+    font-weight: 500;
     border-radius: 10px;
     margin-left: 30px;
     margin-right:30px;
+    @media only screen and (max-width : 991.5px) {
+      margin-top: 0px;
+      padding: 0;
+
+    }
    .toggle{
      display: none;
-     width: 100px;
-     text-align: center;
-     border-color: #959494;
+    
+
     
      @media only screen and (max-width : 991.5px) {
-        display: block !important;
+       
         display: flex;
         justify-content: center;
+        width: 100px;
+        text-align: center;
+        border-color: transparent;
+        text-align: center;
+        align-items: center;
+       
+        font-weight: 500;
+       
+        height: auto;
+
+        
+
    
       
       }
@@ -27,9 +47,17 @@ $color-secondery:#009C99;
     display: flex;
      justify-content: center;
      align-items: center;
+     padding: 20px;
+    
+     font-weight: 500;
+     font-family: Cairo ;
      
      @media only screen and (max-width : 991.5px) {
-        display: block !important;
+        display: block ;
+        background-color: $color-primary;
+        
+
+        
       
       }
    }
@@ -37,8 +65,11 @@ $color-secondery:#009C99;
     mat-toolbar {
         margin-left: auto;
         margin-right: auto;
+        background-color: transparent;
         display: flex;
         justify-content: center;
+       
+        font-weight: 500;
         @media only screen and (max-width : 991.5px) {
             display: block !important;
             padding-bottom: 10px;
@@ -46,16 +77,21 @@ $color-secondery:#009C99;
           
     }
     .translate{
+     
+        font-weight: 500;
        width: 50px;
        height: 50px;
        border-radius: 50%;
        border-color: transparent;
        background-color: $color-secondery;
+       font-family: Cairo ;
+       font-weight: 700;
+       font-size: 14px;
        outline: 0;
        color:white;
        @media only screen and (max-width : 991.5px) {
-        display: block !important;
-        margin-bottom: 30px;
+        display: block ;
+        margin-bottom: 10px;
         padding: 0;
       }
       
@@ -66,11 +102,14 @@ $color-secondery:#009C99;
     border-radius: 20px;
     border-color: transparent;
     background-color: #009C99;
+    font-weight: 700;
+    font-family: Cairo  ;
+    font-size: 14px;
     outline: 0;
     color: $color-primary;
     @media only screen and (max-width : 991.5px) {
         display: block !important;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         padding: 0;
       }
     }
@@ -81,21 +120,26 @@ $color-secondery:#009C99;
     a{
         text-decoration: none;
         color: black;
+        
+        font-weight: 500;
         @media only screen and (max-width : 991.5px) {
+
             display: block !important;
             &:first-child{
                 margin-top: 30px;
             }
-            margin-bottom: 30px;
+            margin-bottom: 15px;
           }
 
     
     }
     .logo{
+      
+        font-weight: 500;
         @media only screen and (max-width : 991.5px) {
-            margin-bottom: 10PX;
-           border-bottom: 2px solid   #959494;;
-           padding: 10px 0;
+            // margin-bottom: 15PX;
+           
+          
            
           } 
     }

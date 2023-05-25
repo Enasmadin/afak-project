@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FeautureModualModule } from './feauture-modual/feauture-modual.module';
 
 
 @NgModule({
@@ -27,8 +28,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatButtonModule,
     MatIconModule,
     MatButtonToggleModule,
-    BrowserAnimationsModule
-
+    BrowserAnimationsModule,
+    FeautureModualModule,
     
     
   ],
