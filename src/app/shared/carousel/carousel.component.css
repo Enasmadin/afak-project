@@ -1,0 +1,17 @@
+.slick-slider {
+  width: 88%;
+  margin: auto;
+  background: rgb(14, 13, 13);
+}
+
+body .slick-prev,
+body .slick-next, button {
+  height: 45px;
+  width: 40px;
+  background: #0a6327 !important;
+  z-index: 100;
+}
+
+.carousel {
+  height: 300px;
+}/*# sourceMappingURL=carousel.component.css.map */

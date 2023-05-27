@@ -1,0 +1,18 @@
+.partener {
+  margin-top: 10px;
+}
+.partener .header {
+  display: flex;
+  justify-content: center;
+}
+.partener .header h2 {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 0.89;
+  font-family: ae_AlMothnna !important;
+  margin-right: 10px;
+}
+.partener .header img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=partener.component.css.map */

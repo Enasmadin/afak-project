@@ -1,0 +1,75 @@
+.gallary {
+  margin-top: 10px;
+}
+.gallary .header {
+  display: flex;
+  justify-content: center;
+}
+.gallary .header h2 {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 0.89;
+  font-family: ae_AlMothnna !important;
+  margin-right: 10px;
+}
+.gallary .header img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.gallary .gallery-image {
+  background-image: url(../../../assets/imag/home/gallary/5ffcd06f-5be6-456c-a44c-cf63ea034d70.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.gallary .gallery-image div {
+  width: calc(50% - 40px);
+  height: 490px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  margin: 30px 20px;
+}
+@media (max-width: 991.5px) {
+  .gallary .gallery-image div {
+    width: 100%;
+    margin: 60px 20px;
+  }
+}
+.gallary .gallery-image div img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 25px;
+}
+.gallary .paginator {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+@media (max-width: 991.5px) {
+  .gallary .paginator {
+    margin: 50px;
+  }
+}
+.gallary .paginator .forward, .gallary .paginator .back {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(34, 1, 1);
+  justify-content: center;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  color: white;
+}
+.gallary .paginator .page {
+  width: 80px;
+  height: 50px;
+  color: #009C99;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=galary.component.css.map */

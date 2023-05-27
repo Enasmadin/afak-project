@@ -1,0 +1,15 @@
+.home {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.home .app-header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  left: 0;
+  right: 0;
+}
+.home .app-about-us {
+  z-index: 1;
+}/*# sourceMappingURL=home.component.css.map */
