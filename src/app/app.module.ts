@@ -13,6 +13,12 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FeautureModualModule } from './feauture-modual/feauture-modual.module';
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { SharedModule } from './shared/shared.module';
+import { ContactUsModule } from './feauture-modual/contact-us/contact-us.module';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
+
 
 
 @NgModule({
@@ -33,6 +39,10 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     BrowserAnimationsModule,
     FeautureModualModule,
     FlexLayoutModule,
+    SharedModule,
+    MatFormFieldModule,
+    MatInputModule
+    
     
     
   ],
