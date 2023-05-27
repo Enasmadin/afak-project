@@ -12,6 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FeautureModualModule } from './feauture-modual/feauture-modual.module';
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FeautureModualModule } from './feauture-modual/feauture-modual.module';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,7 @@ import { FeautureModualModule } from './feauture-modual/feauture-modual.module';
     MatButtonToggleModule,
     BrowserAnimationsModule,
     FeautureModualModule,
+    FlexLayoutModule,
     
     
   ],

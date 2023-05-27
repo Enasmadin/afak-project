@@ -1,0 +1,81 @@
+.gallary{
+    margin-top: 10px;
+    .header{
+        display: flex;
+        justify-content: center;
+
+        h2{
+            font-size: 31px;
+            font-weight: 700;
+            line-height: .89;
+            font-family: ae_AlMothnna!important;
+            margin-right: 10px;
+            
+        }
+        img{
+             object-fit: contain;
+           
+        }
+    }
+    .gallery-image{
+        background-image: url(../../../assets/imag/home/gallary/5ffcd06f-5be6-456c-a44c-cf63ea034d70.jpg);
+        
+         height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-wrap: wrap;
+         margin-left: 10px;
+         margin-right: 10px;
+         
+        div{
+         
+            
+           width:calc(50% - 40px);
+            height: 490px;
+            border-radius: 25px;
+            box-sizing: border-box;
+            margin:  30px 20px ;
+            @media ( max-width:991.5px) {
+                width: 100%;
+           
+            margin:  60px 20px ; 
+              
+            }
+           
+            img{
+              width: 100%;
+              object-fit: contain;
+              border-radius: 25px;
+            }
+          
+           
+        }
+    }
+    .paginator{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        .forward , .back{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(34, 1, 1);
+            justify-content: center;
+            display: flex;
+            border-radius: 50%;
+             align-items: center;
+            color: white;
+
+        }
+        .page{
+            width: 80px;
+            height: 50px;
+            color:#009C99; 
+            justify-content: center;
+            display: flex;
+            align-items: center;
+
+        }
+    }
+
+}
