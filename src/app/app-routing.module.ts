@@ -4,12 +4,10 @@ import { HomeComponent } from './layouts/full-components/home/home.component';
 
 
 const routes: Routes = [
-  { path: '',
-  component:HomeComponent,
-
-  loadChildren: () => import('./feauture-modual/feauture-modual.module').then(m => m.FeautureModualModule),
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home',  component:HomeComponent },
+  {path:"feature", loadChildren: () => import('./feauture-modual/feauture-modual.module').then(m => m.FeautureModualModule)}
  
-},
 ];
 
 @NgModule({
