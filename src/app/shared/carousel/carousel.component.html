@@ -1,10 +1,21 @@
 
+<div class="carsol">
+  
+  
+  <owl-carousel-o [options]="customOptions">
 
-    <owl-carousel-o [options]="customOptions">
-        <ng-template carouselSlide>Slide 1</ng-template>  
-        <ng-template carouselSlide>Slide 2</ng-template>  
-        <ng-template carouselSlide>Slide 3</ng-template>  
-      </owl-carousel-o>
+    <ng-container *ngFor="let partner of partner_list">
+      <ng-template carouselSlide >
+        <div class="mainDiv">
+        <img [src]="partner.logo_att_name" class="image">
+       
+        </div>
+      </ng-template>
+    </ng-container>
+
+  </owl-carousel-o>
+</div>
+   
       
 
 

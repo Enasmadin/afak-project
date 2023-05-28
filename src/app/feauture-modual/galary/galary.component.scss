@@ -10,6 +10,7 @@
             line-height: .89;
             font-family: ae_AlMothnna!important;
             margin-right: 10px;
+            margin-bottom: 30px;
             
         }
         img{
@@ -32,16 +33,43 @@
          
             
            width:calc(50% - 40px);
-            height: 490px;
+            // height: 490px;
+            height: auto;
             border-radius: 25px;
             box-sizing: border-box;
             margin:  30px 20px ;
-            @media ( max-width:991.5px) {
-                width: 100%;
-           
-            margin:  60px 20px ; 
+        //     @media  (max-width: 991.5px) and (min-width: 576px) {
+          
+        //         &:not(:first-of-type) , &:not(:nth-of-type(2)){
+        //             margin-bottom:-200px;
+        //         }
               
-            }
+                
+        //    }
+          
+            @media  (max-width: 991.5px) and (min-width: 576px) {
+          
+                // &:not(:first-of-type) , &:not(:nth-of-type(2)){
+                //     margin-top:-200px;
+                //     margin-bottom: -100px;
+                // }
+                // &:first-of-type , &:nth-of-type(2){
+                //     margin-top:100px;
+                // }
+                
+           }
+            @media only screen and (max-width: 575.5px) {
+                margin: 0px  ;
+                width: 100%;
+                margin-bottom: 10px;
+                // &:not(:first-of-type) {
+                //     margin-top: -90px;
+                // }
+                // &:last-of-type {
+                //     margin-bottom: -90px;
+                // }
+                
+           }
            
             img{
               width: 100%;

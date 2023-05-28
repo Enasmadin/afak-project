@@ -1,0 +1,130 @@
+.footer{
+    background-image: url(../../../../assets/imag/home/footor/footer_background.png);
+     position: relative;
+    width: 100%;
+    height: 500px;
+    @media only screen and (max-width: 575.5px) {
+        height: 950px;
+       
+      }
+      @media only screen and (max-width: 991.5px) {
+       
+        background-image: none;
+      }
+    background-repeat: no-repeat;
+    background-size: cover;
+    .all-data{
+    display: flex;
+   justify-content: space-evenly;
+    margin: 20px;
+    @media only screen and (max-width: 575.5px) {
+        display: block;
+      }
+    
+    h4{
+        color: #009a97;
+        font-family: Cairo,sans-serif;
+        font-size: 23px;
+        margin: 0;
+    }
+    .media-links{
+      
+        .media{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            div{
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+               
+                display: flex;
+                img{
+                    width:100%;
+                    height:100%;
+
+                }
+                
+            }
+        }
+
+    }
+    .fast-links{
+        div{
+            a{
+                text-decoration: none;
+                font-family: Cairo,sans-serif;
+                color:black;
+                line-height: 2;
+
+            }
+        }
+    }
+    .breif-about{
+        width:350px;
+    
+        font-family: Cairo,sans-serif;
+        @media only screen and (max-width: 575.5px) {
+           width: auto;
+          }
+        p{
+            margin: 0;
+            line-height: 2.5;
+        }
+        a{
+            color: #dc2424;
+            text-decoration: underline;
+            font-family: Cairo;
+            display: flex;
+            justify-items: center;
+        
+            small{
+                font-size: 12px;
+                margin-left: 5px;
+            }
+            span{
+                color: blue !important;
+               
+                text-decoration: underline;
+                font-size: 15px;
+               
+              
+            }
+        }
+        
+    }
+    .logo{
+        width:200px;
+        height: 100px;
+        @media only screen and (max-width: 575.5px) {
+           margin-left: auto;
+           margin-right: auto;
+           }
+        img{
+            width:100%;
+            height:100%;
+           object-fit: contain;
+        }
+    }
+   
+ }
+ .dualt{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: Cairo;
+    
+      @media only screen and (max-width: 991.5px) {
+       
+        color: #009a97;
+        margin-right: 60px ;
+        margin-left: 60px;
+      }
+
+ }
+    
+   
+   
+}
