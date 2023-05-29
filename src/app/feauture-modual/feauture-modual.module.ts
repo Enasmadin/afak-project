@@ -11,6 +11,7 @@ import { SharedModule } from '../shared/shared.module';
 import { ContactUsModule } from './contact-us/contact-us.module';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -29,7 +30,9 @@ import { MatInputModule } from '@angular/material/input';
     MatIconModule,
     SharedModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    RouterModule,
+    ContactUsModule,
   
   ],
   exports:[

@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContactUsComponent } from './contact-us/contact-us.component';
+
+import { ContatUsPageComponent } from './page/contat-us-page/contat-us-page.component';
 
 const routes: Routes = [
-  { path: '', component: ContactUsComponent }
+  { path: '', component: ContatUsPageComponent }
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ContactUsRoutingModule { }
+export class ContactUsRoutingModule {
+  static routes: Routes;
+}

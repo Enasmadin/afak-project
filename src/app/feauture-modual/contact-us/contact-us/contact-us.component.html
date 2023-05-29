@@ -1,11 +1,20 @@
-<div  class="contact-us">
-    <div  class="header"> 
+<div  class="contact-us" [ngClass]="{
+    'backgrund-roze':hideTitle ,
+    'background-white':!hideTitle 
+  }">
+  <div   class="over-lay">
+
+  </div>
+    <div  class="header"  *ngIf="hideTitle"> 
         <img  src="../../../assets/imag/home/products/logo-title.png"/>
         <h2>   اتصل بنا </h2>
+       
+      
     </div>
     <div   class="container-contact">
         <div  class="information-it">
             <div   class="data">
+
                 <h3>  الموقع الالكترونى </h3>
                 <div>
                     <a   href="https://afaaqpro.com"> https://afaaqpro.com</a>

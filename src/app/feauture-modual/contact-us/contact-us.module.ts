@@ -7,19 +7,30 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from "@angular/material/form-field";
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { SharedModule } from 'src/app/shared/shared.module';
+import { RouterModule } from '@angular/router';
+import { ContatUsPageComponent } from './page/contat-us-page/contat-us-page.component';
+import { FeautureModualModule } from '../feauture-modual.module';
+import { PartenerComponent } from '../partener/partener.component';
 
 
 
 @NgModule({
   declarations: [
-    ContactUsComponent
+    ContactUsComponent,
+    ContatUsPageComponent
   ],
   imports: [
     CommonModule,
     ContactUsRoutingModule,
     MatFormFieldModule,
     MatInputModule,
-    MatCheckboxModule
+    RouterModule,
+    MatCheckboxModule,
+    SharedModule,
+    RouterModule,
+  
+ 
     
     
   ],
@@ -27,7 +38,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
   exports:[
     ContactUsComponent,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+
   ]
 })
 export class ContactUsModule { }

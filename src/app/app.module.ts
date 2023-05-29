@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './theme/components/header/header.component';
+
 import { HomeComponent } from './layouts/full-components/home/home.component';
-import { FooterComponent } from './theme/components/footer/footer.component';
+
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -17,6 +17,10 @@ import { SharedModule } from './shared/shared.module';
 import { ContactUsModule } from './feauture-modual/contact-us/contact-us.module';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { ContausPageComponent } from './layouts/full-components/contaus-page/contaus-page.component';
+
 
 
 
@@ -24,24 +28,26 @@ import { MatInputModule } from '@angular/material/input';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
+   
     HomeComponent,
-    FooterComponent,
+         ContausPageComponent,
+   
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
+  
+   
     MatButtonToggleModule,
     BrowserAnimationsModule,
     FeautureModualModule,
     FlexLayoutModule,
     SharedModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    FormsModule,
+    RouterModule
     
     
     
