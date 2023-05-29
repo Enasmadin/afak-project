@@ -69,8 +69,8 @@ export class CarouselComponent {
     navSpeed: 700,
     navText: [
       
-      "<i class='material-icons'>chevron_left</i>",
-      "<i class='material-icons'>navigate_next</i>",
+      "<i class='material-icons icons' >chevron_left</i>",
+      "<i class='material-icons icons'>navigate_next</i>",
 
     ],
 

@@ -6,7 +6,7 @@ $color-secondery:#009C99;
     color: #009a97 !important;
     border-bottom: 2px solid #009a97 !important;
 
-}
+    }
 
     
     height: auto;
@@ -56,7 +56,7 @@ $color-secondery:#009C99;
     display: flex;
      justify-content: center;
      align-items: center;
-     padding: 20px;
+     padding: 2px 0;
     
      font-weight: 500;
      font-family: Cairo ;
@@ -71,20 +71,7 @@ $color-secondery:#009C99;
       }
    }
     
-    mat-toolbar {
-        margin-left: auto;
-        margin-right: auto;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-       
-        font-weight: 500;
-        @media only screen and (max-width : 991.5px) {
-            display: block !important;
-            padding-bottom: 10px;
-          }
-          
-    }
+ 
     .translate{
      
         font-weight: 500;
@@ -123,8 +110,8 @@ $color-secondery:#009C99;
       }
     }
     .m-10{
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     a{
         text-decoration: none;
@@ -145,8 +132,9 @@ $color-secondery:#009C99;
     .logo{
       
         font-weight: 500;
-        @media only screen and (max-width : 991.5px) {
+        @media only screen and (min-width : 991.5px) {
             // margin-bottom: 15PX;
+            margin-left: 130px;
            
           
            

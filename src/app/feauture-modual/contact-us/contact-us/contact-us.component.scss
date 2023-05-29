@@ -189,6 +189,7 @@
                         outline: 0;
                         margin-top: 10px;
                         margin-bottom: 10px;
+                        font-family: 'Cairo';
                        
                       
                     }
@@ -287,6 +288,11 @@
         h3{
              color: #009a97 !important;
            
+           }
+           div{
+            p,a{
+                color: #000 !important;
+            }
            }
         }
   }

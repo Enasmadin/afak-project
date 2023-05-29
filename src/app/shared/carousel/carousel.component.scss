@@ -2,16 +2,21 @@
 
 
 ::ng-deep .owl-next ,::ng-deep .owl-prev{
-    color: #FFF;
-    font-size: 14px;
-    margin: 5px;
-    padding: 4px 7px;
-     background-color: #009a97!important;
+     color: #FFF;
+    // font-size: 14px;
+    // margin: 5px;
+     padding: 4px 7px;
+      background-color: #009a97!important;
    
-    width: 30px !important;
-    height: 30px !important;
+    // width: 30px !important;
+    // height: 30px !important;
     border-radius: 50% !important;
-    padding: 5px !important;
+    // padding: 5px !important;
+    // display: flex;
+    // justify-content: center;
+   
+
+     
     
 }
 ::ng-deep .owl-next{
@@ -41,3 +46,8 @@
 .carsol{
     height: 200px;
 }
+
+  .material-icons{
+    font-size: 200px !important;
+  }
+
