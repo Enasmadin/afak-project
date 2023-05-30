@@ -22,26 +22,30 @@
 ::ng-deep .owl-next{
     position: absolute;
     top:35%;
-    right: 0px;
+    right: 5px;
    
 }
 ::ng-deep .owl-prev{
     position: absolute;
-    top:35%;
+    top:30%;
    
-    left: 0px;
+    left: 5px;
 }
 
 
 
 .mainDiv{
-  height: 200px;
+  height: 100px;
   width: 100px;
+   
   .image{
     height: 100%;
     width:100%;
     object-fit: contain;
   }
+}
+.mainDiv:first-child , .mainDiv:last-child{
+  margin: 0 50px !important;
 }
 .carsol{
     height: 200px;
@@ -50,4 +54,4 @@
   .material-icons{
     font-size: 200px !important;
   }
-
+ 

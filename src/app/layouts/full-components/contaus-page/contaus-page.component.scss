@@ -7,7 +7,7 @@
     height: 350px;
     .background-image{
       
-        background-image: url(../../../../assets/imag/home/contac-us/header.16400cdb2851950a.png);
+      background-image: url(../../../../assets/imag/home/contac-us/header.16400cdb2851950a.png);
        height: 100%;
 
        background-repeat: no-repeat;
@@ -17,9 +17,10 @@
        top:-50px;
        .app-header{
         position: fixed;
-       
+         z-index: 99999;
          width: 100%;
-         top:10px
+         top:-5px;
+        
         
     }
     .title{

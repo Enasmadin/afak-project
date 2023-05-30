@@ -12,6 +12,8 @@ import { ContactUsModule } from './contact-us/contact-us.module';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { RouterModule } from '@angular/router';
+import { ProducetComponent } from './producet/producet.component';
+import { NewsComponent } from './news/news.component';
 
 
 
@@ -22,7 +24,9 @@ import { RouterModule } from '@angular/router';
     AboutUsComponent,
     ProductComponent,
     GalaryComponent,
-    PartenerComponent
+    PartenerComponent,
+    ProducetComponent,
+    NewsComponent
   ],
   imports: [
     CommonModule,
@@ -40,7 +44,8 @@ import { RouterModule } from '@angular/router';
     ProductComponent,
     GalaryComponent,
     PartenerComponent,
-    ContactUsModule
+    ContactUsModule,
+    NewsComponent
    
   ],
   providers: [

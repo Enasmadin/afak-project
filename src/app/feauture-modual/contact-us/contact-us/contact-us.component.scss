@@ -123,6 +123,9 @@
                      width: 300px;
                      background: #f9f9f9;
                      color: #000;
+                     .check-box{
+                        z-index: 999;
+                     }
                      @media only screen and (max-width: 991.5px) {
                        
                         width:100%;
@@ -296,4 +299,4 @@
            }
         }
   }
- 
+  

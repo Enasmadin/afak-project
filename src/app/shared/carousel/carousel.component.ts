@@ -62,7 +62,7 @@ export class CarouselComponent {
     mouseDrag: false,
     touchDrag: false,
     pullDrag: false,
-    margin: 5,
+  //  margin: 20,
     
 
     dots: false,
