@@ -44,9 +44,9 @@
        
         height: 600px;
      }
-     @media only screen and (max-width: 575.5px) {
-                
-        height: 1500px;
+   
+    @media only screen and (max-width: 767.5px) {
+        height: 1600px;
     }
    
     .background-image-new{
@@ -75,16 +75,17 @@
                 margin-right: auto;  
                  
              }
-             @media only screen and (max-width:575.5px) {
+             @media only screen and (max-width:767.5px) {
                
                 margin-top: -290px;
-                margin-left: 0px !important; 
+               
                 display: block;
                 margin-bottom: auto;
                 margin-right: auto;
               
                  
              }
+
          
              
            
@@ -168,7 +169,9 @@
                  @media only screen and (max-width: 991.5px) {
                     .image-title{
                         width: 165px;
-                        height: 160px;
+                       
+                        height: 142px !important;
+                        
 
                         h3{
                             width: 136px;
@@ -225,14 +228,27 @@
                         width: 236px !important;
                         height: 210px !important;
                         img{
-                            width: 100%;
+                          
+                            @media only screen and (max-width: 991.5px) {
+                    
+                             width: 100%;
+                             height: 100%;
+                               
+                              }
                         }
                     }
                   
                     
                 }
-                @media only screen and (max-width: 575.5px) {
-                    
+                @media only screen and (max-width: 767.5px) {
+                    .image-title{
+                       
+                        height: 160px;
+                        width:inherit;
+                      margin-top: 10px  !important;
+                       margin-bottom: 20px;
+                    }
+
                     display: block;
                    
                   }
