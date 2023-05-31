@@ -226,14 +226,21 @@
                       
                     }  
                     .image{
-                        width: 236px !important;
+                        width: 1005px !important;
                         height: 210px !important;
+                        margin-bottom: 150px;
+                        &:first-child{
+                            margin-top: 300px;
+                        }
+                        &:last-child{
+                            margin-bottom: 200px;
+                        }
                         img{
                           
                             @media only screen and (max-width: 991.5px) {
                     
-                             width: 100%;
-                             height: 100%;
+                             width: initial;
+                             height: initial;
                                
                               }
                         }
