@@ -40,7 +40,14 @@
    margin: auto;
     width: 1356.6px;
      height: 1156.4px;
-    
+     @media only screen and (max-width: 991.5px) {
+       
+        height: 600px;
+     }
+     @media only screen and (max-width: 575.5px) {
+                
+        height: 1500px;
+    }
    
     .background-image-new{
       
@@ -50,21 +57,56 @@
          background-position:center ;
          width: 100%;
          height: 100%;
+         @media only screen and (max-width: 991.5px) {
+                       
+           background-image: none;
+        }
         
          .images{
              position: absolute;
-             right: 21%;
+             right: 13%;
              top:22.5%;
+         
+             @media only screen and (max-width: 991.5px) {
+                //  right: 5%; 
+                //  left: 5%;  
+                margin-top: -130px;
+                margin-left: auto; 
+                margin-right: auto;  
+                 
+             }
+             @media only screen and (max-width:575.5px) {
+               
+                margin-top: -290px;
+                margin-left: 0px !important; 
+                display: block;
+                margin-bottom: auto;
+                margin-right: auto;
+              
+                 
+             }
+         
+             
+           
           
              .imagesnew{
                  display: flex;
                  flex-direction: row;
                  margin-top: 0 !important;
+                 
+               
                  &:nth-child(2){
                       div{
                          margin-top:-4px !important;
                       }
                  }
+               
+                
+                    
+               
+              
+              
+                 
                 
                  .image-title{
                     
@@ -95,7 +137,7 @@
                          padding-top: 0;
                          width: 230px;
                          height: 124px;
-                         margin: px 0;
+                         margin:  0;
                          font-family: Cairo;
                          font-size: 18px;
                          font-weight: 100;
@@ -123,6 +165,77 @@
          
 
                  }
+                 @media only screen and (max-width: 991.5px) {
+                    .image-title{
+                        width: 165px;
+                        height: 160px;
+
+                        h3{
+                            width: 136px;
+                            height: 60px;
+                            margin: 0 ;
+                            font-family: Cairo;
+                            font-weight: 100 !important;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1 !important;
+                            letter-spacing: normal;
+                            text-align: right;
+                            color: #030303;
+                            margin-bottom: 0;
+                          
+                         }
+                         p{
+                            margin-top: 0;
+                            padding-top: 0;
+                            width: 150px;
+                            height: 100px;
+                            margin:  0;
+                            font-family: Cairo;
+                            font-size: 12px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1;
+                            letter-spacing: normal;
+                            text-align: right;
+                            color: #414141;
+                            margin-bottom: -60px;
+
+                        }
+                        a{
+                            width: 277px;
+                            height: 20px;
+                            margin-top: -400px !important ;
+                            font-family: Cairo;
+                            font-size: 10px;
+                            font-weight: 300;
+                            font-stretch: normal;
+                            font-style: normal;
+                         
+                            letter-spacing: normal;
+                            text-align: right;
+                            color: #009c99;
+                        }
+            
+                        
+                      
+                    }  
+                    .image{
+                        width: 236px !important;
+                        height: 210px !important;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                  
+                    
+                }
+                @media only screen and (max-width: 575.5px) {
+                    
+                    display: block;
+                   
+                  }
                 
              }
              
