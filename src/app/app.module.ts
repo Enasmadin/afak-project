@@ -20,6 +20,7 @@ import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ContausPageComponent } from './layouts/full-components/contaus-page/contaus-page.component';
+import {provideClientHydration} from '@angular/platform-browser';
 
 
 
@@ -31,6 +32,7 @@ import { ContausPageComponent } from './layouts/full-components/contaus-page/con
    
     HomeComponent,
          ContausPageComponent,
+         
    
     
   ],
@@ -52,7 +54,7 @@ import { ContausPageComponent } from './layouts/full-components/contaus-page/con
     
     
   ],
-  providers: [],
+  providers: [ provideClientHydration()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

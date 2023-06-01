@@ -6,7 +6,12 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "dev:ssr": "ng run afak-project:serve-ssr",
+    "serve:ssr": "node dist/afak-project/server/main.js",
+    "build:ssr": "ng build && ng run afak-project:server",
+    "prerender": "ng run afak-project:prerender",
+    "dev": "lite-server"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +30,7 @@
     "@ngmodule/material-carousel": "^0.6.0",
     "@nguniversal/express-engine": "^16.0.2",
     "@nguniversal/module-map-ngfactory-loader": "^8.2.6",
+    "express": "^4.15.2",
     "jquery": "^3.7.0",
     "ngx-owl-carousel-o": "^16.0.0",
     "ngx-slick-carousel": "^15.0.0",
@@ -37,13 +43,18 @@
     "@angular-devkit/build-angular": "^16.0.2",
     "@angular/cli": "~16.0.2",
     "@angular/compiler-cli": "^16.0.0",
+    "@nguniversal/builders": "^16.0.2",
+    "@types/express": "^4.17.0",
     "@types/jasmine": "~4.3.0",
+    "@types/node": "^14.15.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "lite-server": "^2.6.1",
+    "ngx-sitemap": "^1.0.0",
     "typescript": "~5.0.2"
   }
 }
